@@ -1,12 +1,14 @@
 logs
 target
-/.idea
+.g8
+.idea
 /.idea_modules
 /.classpath
 /.project
 /.settings
 /RUNNING_PID
-/.g8/form
-gradle/wrapper
+gradle
 gradlew
 gradlew.bat
+build.gradle
+project/project/
