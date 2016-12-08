@@ -8,3 +8,10 @@ GET     /                           controllers.HomeController.index
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+
+
+
+GET         /books                      controller.BooksController.list
+GET         /books/:id                  controller.BooksController.get(id: Int)
+PUT         /book/:id/updateTitle       controller.updateTitle(id: Int)
